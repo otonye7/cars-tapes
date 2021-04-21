@@ -11,14 +11,20 @@ export const HeaderContainer = styled.div`
    justify-content: space-between;
 
    .logo-container {
-      width: 15%;
+      width: 205px;
       display: flex;
       justify-content: space-between;
-
-      @media screen and (max-width: 767px){
-        width: 80%;
-}
    }
+
+.navbar-container {
+   width: 65%;
+   display: flex;
+   justify-content: space-between;
+
+   @media screen and (max-width: 767px){
+      display: none;
+}
+}
 
    .overall {
       width: 92%;
@@ -47,11 +53,7 @@ export const HeaderContainer = styled.div`
     background-position: center;
     background-size: cover;
     margin-top: 0.2rem;
-
-    @media screen and (max-width: 767px){
-       width: 63%;
-        height: 2.4rem;
-}
+ 
   } 
 
   .nav {

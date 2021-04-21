@@ -13,6 +13,8 @@ const Header = () => {
                  <div className='brands'></div>
             </div>
 
+            <div className='navbar-container'>
+
             <div className='nav-container'>
                <Link className='nav' to=''>Company</Link>
             </div>
@@ -44,6 +46,7 @@ const Header = () => {
             <div className='nav-container'>
                <Link className='nav' to=''>Lifestyle</Link>
             </div>
+         </div>
 
             <div className='search-container'>
                 <SearchIcon className='search'/>
