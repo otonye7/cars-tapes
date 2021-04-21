@@ -1,4 +1,4 @@
-import { HomepageContainer } from './header.styles';
+import { HomepageContainer } from './homepage.styles';
 
 const Homepage = () => {
     return (
