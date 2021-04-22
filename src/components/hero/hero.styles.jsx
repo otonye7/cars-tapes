@@ -19,17 +19,20 @@ width: 100%;
 .button-container {
     position: absolute;
     z-index: 3;
-    top: 100px;
+    top: 130px;
     left: 80px;
 }
 
 .button {
-    background-color: #ddd;
+    background-color: #333;
+    color: white;
 }
 
 .text {
     color: white;
-    font-size: 1.5rem;
-    font-family: MBCorpo Text,DaimlerCS-;
+    font-weight: 400;
+    font-size: 2.28571rem;
+    line-height: 2.85714rem;
+    font-family: MBCorpo Title,DaimlerCAC-Regular,Helvetica,Arial,sans-serif;
 }
 `;
