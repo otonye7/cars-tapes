@@ -3,16 +3,21 @@ import styled from 'styled-components';
 
 
 export const WelcomeContainer = styled.div` 
-width: 99%;
+width: 90%;
+max-width: 1200px;
 height: 25rem;
 background-color: black;
 margin: 0 auto;
 display: flex;
 align-items: center;
 
+@media screen and (max-width: 800px) {
+   padding-top: 2rem;
+}
+
 
 .welcome-container {
-    width: 90%;
+    width: 100%;
     align-items: center; 
     margin: 0 auto;
 }
@@ -28,6 +33,11 @@ align-items: center;
     font-size: 1.85714rem;
     line-height: 2.28571rem;
     font-weight: 500;
+
+@media screen and (max-width: 800px) {
+   width: 80%;
+   margin: 0 auto;
+}
 }
 
 .paragraph {
@@ -41,6 +51,14 @@ align-items: center;
     font-family: MBCorpo Title,DaimlerCAC-Regular,Helvetica,Arial,sans-serif;
     font-size: 0.85714rem;
     font-weight: 400;
+
+    
+@media screen and (max-width: 800px) {
+   padding-top: 1rem;
+   width: 80%;
+   margin: 0 auto;
+}
+
 }
 
 .paragraphs {
@@ -54,5 +72,18 @@ align-items: center;
     font-family: MBCorpo Title,DaimlerCAC-Regular,Helvetica,Arial,sans-serif;
     font-size: 0.85714rem;
     font-weight: 400;
+
+@media screen and (max-width: 800px) {
+   padding-top: 1rem;
+   width: 80%;
+   margin: 0 auto;
+}
+}
+
+.button-container {
+@media screen and (max-width: 800px) {
+   width: 80%;
+   margin: 0 auto;
+}
 }
 `;

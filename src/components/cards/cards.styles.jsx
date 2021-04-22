@@ -8,65 +8,64 @@ import Me from '../../assets/me.webp';
 
 export const CardsContainer = styled.div` 
 width: 90%;
-height: 20rem;
-margin: 0 auto;
-display: flex;
+max-width: 1200px;
+height: 10rem;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-gap: 10px;
 align-items: center;
+margin: 0 auto;
+/* padding-left: 4rem; */
 
-
-.container {
-    width: 100%;
-   height: 10rem; 
-   display: flex;
-   justify-content: space-between; 
+@media screen and (max-width: 800px) {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  width: 70%;  
+  margin: 0 auto;
 }
 
+@media screen and (max-width: 1024px) {
+  padding-left: 0rem;
+}
+
+
+
+
+
+
 .card {
-    width: 20%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     background-image: url(${Chanell});
     background-position: center;
-    background-size: cover;
-    /* @media screen and (max-width: 767px){
-      width: 100%;
-      height: 18rem;
-} */
+    background-size: cover; 
 }
 
 .card2 {
-    width: 20%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     background-image: url(${Museum});
     background-position: center;
     background-size: cover;
-    /* @media screen and (max-width: 767px){
-      width: 100%;
-      height: 18rem;
-} */
 }
 
 .card3 {
-    width: 20%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     background-image: url(${She});
     background-position: center;
     background-size: cover;
-    /* @media screen and (max-width: 767px){
-      width: 100%;
-      height: 18rem;
-} */
 }
 
 .card4 {
-    width: 20%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     background-image: url(${Me});
     background-position: center;
     background-size: cover;
-    /* @media screen and (max-width: 767px){
-      width: 100%;
-      height: 18rem;
-} */
 }
+
+
 
 `;

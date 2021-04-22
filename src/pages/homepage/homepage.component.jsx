@@ -1,3 +1,4 @@
+
 import { HomepageContainer } from './homepage.styles';
 import Hero from '../../components/hero/hero.component';
 import Search from '../../components/search/search.component';
@@ -5,6 +6,7 @@ import Welcome from '../../components/welcome/welcome.component';
 import Cards from '../../components/cards/cards.component';
 
 const Homepage = () => {
+  
     return (
         <HomepageContainer>
             <div className='header-container'>
@@ -17,7 +19,7 @@ const Homepage = () => {
             <div className='welcome'>
                 <Welcome />
             </div>
-            <div className='card'>
+            <div className='card' >
                 <Cards />
             </div>
             </div>

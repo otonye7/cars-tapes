@@ -11,7 +11,7 @@ const Welcome = () => {
     ), [])
     return (
         <WelcomeContainer>
-            <div className='welcome-container' data-aos='fade-up'>
+            <div data-aos='fade-up' className='welcome-container' >
               <h2 className='text'>Welcome to the Mercedes-Benz international website.</h2>
               <p className='paragraph'>
                   Exclusive reports and current films: experience a broad range of topics from the fascinating world of Mercedes-Benz.
@@ -23,7 +23,9 @@ const Welcome = () => {
              from the U.S., please visit our U.S. website www.mbusa.com.    
              </p>
              <br />
+             <div className='button-container'>
              <CustomButton className='button'>Bring me to my local website</CustomButton>
+             </div>
             </div>
         </WelcomeContainer>
     )

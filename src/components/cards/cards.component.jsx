@@ -10,12 +10,10 @@ const Card = () => {
     ), [])
     return (
         <CardsContainer>
-          <div className='container' data-aos='fade-up'>
             <div className='card'></div>
-            <div className='card2'></div>
+             <div className='card2'></div>
             <div className='card3'></div>
-            <div className='card4'></div>
-            </div>
+            <div className='card4'></div> 
         </CardsContainer>
     )
 }

@@ -14,6 +14,9 @@ width: 100%;
     z-index: 3;
     top: 25px;
     left: 80px;
+ @media screen and (max-width: 800px) {
+  display: none;
+}
 }
 
 .button-container {
@@ -26,6 +29,10 @@ width: 100%;
 .button {
     background-color: #333;
     color: white;
+
+@media screen and (max-width: 800px) {
+  display: none;
+}
 }
 
 .text {
