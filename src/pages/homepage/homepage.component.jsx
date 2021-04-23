@@ -5,6 +5,8 @@ import Welcome from '../../components/welcome/welcome.component';
 import Cards from '../../components/cards/cards.component';
 import Linked from '../../components/links/links.component';
 import Categories from '../../components/categories/categories.component';
+import AboutTitle from '../../components/about-title/about-title.component';
+// import About from '../../components/about/about.component';
 
 const Homepage = () => {
   
@@ -33,7 +35,14 @@ const Homepage = () => {
             <br />
             <div className='categories'>
                 <Categories />
-            </div>  
+            </div> 
+            <br />
+            <br />
+            <br />
+            <br /> 
+            <div className='about'>
+                <AboutTitle />
+            </div>
             </div>
         </HomepageContainer>
     )

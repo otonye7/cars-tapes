@@ -22,7 +22,7 @@ const Categories = () => {
         Aos.init({duration: 2000})
     ), [])
     return (
-        <CategoriesContainer  >
+        <CategoriesContainer data-aos='fade-up' >
             <div className='first-container'>
                 <img src={Museum} alt="" />
                 <div className='description'>
