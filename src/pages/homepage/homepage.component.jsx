@@ -1,4 +1,3 @@
-
 import { HomepageContainer } from './homepage.styles';
 import Hero from '../../components/hero/hero.component';
 import Search from '../../components/search/search.component';
@@ -21,10 +20,10 @@ const Homepage = () => {
             <div className='welcome'>
                 <Welcome />
             </div>
-            <div className='card' >
+             <div className='card' >
                 <Cards />
             </div>
-            <br />
+             <br />
             <br />
             <br />
             <div className='linked'>
@@ -34,7 +33,7 @@ const Homepage = () => {
             <br />
             <div className='categories'>
                 <Categories />
-            </div>
+            </div>  
             </div>
         </HomepageContainer>
     )

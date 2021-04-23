@@ -7,6 +7,12 @@ width: 100%;
 height: 100%;
 background-color: black; 
 
+.header-container {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
 .hero {
     background-color: #333;
 }
@@ -16,6 +22,11 @@ background-color: black;
 }
 
 .welcome {
+    background-color: black; 
+}
+
+.categories {
+    display: flex;
     background-color: black; 
 }
 `;
