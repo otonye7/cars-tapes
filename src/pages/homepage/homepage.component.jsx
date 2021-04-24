@@ -6,7 +6,8 @@ import Cards from '../../components/cards/cards.component';
 import Linked from '../../components/links/links.component';
 import Categories from '../../components/categories/categories.component';
 import AboutTitle from '../../components/about-title/about-title.component';
-// import About from '../../components/about/about.component';
+import Prefooter from '../../components/prefooter/prefooter.component';
+import Informed from '../../components/informed/informed.component';
 
 const Homepage = () => {
   
@@ -43,6 +44,12 @@ const Homepage = () => {
             <div className='about'>
                 <AboutTitle />
             </div>
+            <br />
+            <br />
+            <Prefooter />
+            <br />
+            <br />
+            <Informed />
             </div>
         </HomepageContainer>
     )

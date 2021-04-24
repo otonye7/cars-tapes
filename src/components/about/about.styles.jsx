@@ -4,6 +4,10 @@ import styled from 'styled-components';
 
 export const CardsContainer = styled.div` 
   width: 100%;
+  @media screen and (max-width: 800px) {
+   width: 95%;
+   margin: 0 auto;
+}
 
   .about {
       width: 96%;
