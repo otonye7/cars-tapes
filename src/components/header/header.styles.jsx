@@ -40,7 +40,7 @@ export const HeaderContainer = styled.div`
    }
    
    .nav-container {
-      @media screen and (max-width: 767px){
+      @media screen and (max-width: 800px){
         display: none;
 }
    }
